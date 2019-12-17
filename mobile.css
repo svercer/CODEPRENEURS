@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+
+#menu {
+    display: none;
+}
+#barsHamburger {
+   position: absolute;
+   right: 5%;
+}
+#barsHamburger > i {
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+}
+#logo {
+    display: inline-block;
+    position: absolute; 
+    left: 5%;
+    top: 15px;
+    font-size: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    max-width: 100%;
+}
+.aboutCompany {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 10%;
+    position: relative;
+}
+.aboutCompany div {
+    margin: 10% auto;
+    width: 30%;
+    height: 10em;
+    padding-top: 20%;
+}
+.arrow {
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0;
+    
+}
+.arrow div {
+    max-width: 100%;
+    display: inline-block;    
+    margin: 0;
+
+}
+.chooseDemo {
+    max-width: 100%;
+    padding: 10%;
+}
+.imagesDemo img{    
+    margin: 10% auto;
+    display: block;
+    max-width: 100%;
+}
+/* arrow */
+#first div, #second div, #third div {
+    margin: 0 10%;
+    max-width: 100%;
+    display: block;
+    padding: 5%;
+    
+}
+.descriptionUsage {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+}
+.demoBtns {
+    margin-bottom: 5%;
+}
+.emptyBorder {
+    width: 20%;
+}
+#back {
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    background-color: #464646;
+    border: none;
+    display: block;
+    
+}
+body {
+    position: relative;
+}
+};
